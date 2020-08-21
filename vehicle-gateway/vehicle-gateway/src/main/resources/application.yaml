@@ -1,0 +1,14 @@
+server:
+  port: 8100
+zuul:
+  routes:
+    registration_vehicle:
+      url: http://localhost:9090
+
+    activities:
+       url: http://localhost:9091
+
+    report-generate:
+       url: http://localhost:9093
+
+
